@@ -1,28 +1,19 @@
 ﻿  StarFall.cpp
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(61,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(59,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(85,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(88,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(90,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(107,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(195,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(83,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(86,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(88,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(105,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(193,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(215,55): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(221,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(213,55): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -31,8 +22,17 @@ C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(221,56): warning C4244: 'a
           [
               T=float
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(228,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(229,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(219,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(226,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(227,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(258,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(263,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(268,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
@@ -46,28 +46,28 @@ C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(315,36): warning C4244: '+
 C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(369,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(373,28): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
 C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(377,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(397,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(399,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(401,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(403,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(406,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(408,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(410,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(412,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(419,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(423,33): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(427,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(474,85): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(398,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(400,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(402,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(404,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(407,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(409,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(411,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(413,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(420,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(424,33): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(428,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(476,85): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(475,86): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(477,86): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(500,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(503,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -76,7 +76,7 @@ C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(500,85): warning C4244: 'a
           [
               T=float
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(500,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(503,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -85,12 +85,12 @@ C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(500,73): warning C4244: 'a
           [
               T=float
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(520,81): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(524,81): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(521,82): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\hamza\college\StarFall\StarFall\StarFall.cpp(525,82): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int

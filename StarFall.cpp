@@ -17,13 +17,11 @@ enum class GameState {
 using namespace std;
 using namespace sf;
 
-void spawnEnemies(Sprite& player, RenderWindow& window, vector < Sprite >& enemies, Sprite& asteroidSprite) {
+void spawnEnemies(Sprite& player, RenderWindow& window, vector < Sprite >& enemies, Sprite& asteroidSprite , int range) {
     //enemies spawning
     Sprite Asteroid_Sprite(asteroidSprite);
 
-    // Define the range within which the asteroid can be positioned
-  float range = 100.0f; // Adjust this value to change the range
-
+ 
     // Calculate the minimum and maximum x-coordinatesfor the asteroid's position
    float minX = player.getPosition().x - range;
    float maxX = player.getPosition().x + range;
@@ -32,7 +30,7 @@ void spawnEnemies(Sprite& player, RenderWindow& window, vector < Sprite >& enemi
    float randomX = static_cast <float> (rand()) / static_cast <float> (RAND_MAX / (maxX - minX)) + minX;
 
     // Set the asteroid's position using the random x-coordinate and a y-coordinate of 0
-    Asteroid_Sprite.setPosition(randomX, 0.0f);
+    Asteroid_Sprite.setPosition(randomX, -10.0f);
 
     // Set the rotation of the sprite to a random value between 0 and 360 degrees
     Asteroid_Sprite.setRotation(static_cast <float> (rand() % 360));
@@ -75,8 +73,8 @@ int main() {
     //VARIABLES
     int STAR_COUNT = 100;
     float STAR_SPEED = 3.0f;
-    const int WINDOW_WIDTH = 800;
-    const int WINDOW_HEIGHT = 600;
+    const int WINDOW_WIDTH = 1280;
+    const int WINDOW_HEIGHT = 720;
     int speed = 5;
     int lives = 3;
     int score = 0;
@@ -107,7 +105,7 @@ int main() {
     int reloadTimerMax2 = 5.0f;
     int reloadTimer2 = reloadTimerMax2;
     bool doubleShooting =false;
-
+    
     if (gameState == GameState::Multiplayer) {
         lives = 6;
     }
@@ -245,11 +243,13 @@ int main() {
         }
 
         //Leveling system
-        level = score / 7 + 1;
-
+        
         if (score2 > 0)
         {
             level = ((score + score2) / 2) / 7 + 1;
+        }
+        else {
+            level = score / 7 + 1;
         }
 
         if (level == 2) {
@@ -302,10 +302,10 @@ int main() {
         if (enemies.size() < maxEnemies) {
             if (enemySpawnTimer >= enemySpawnTimerMax) {
 
-                spawnEnemies(jetSprite, window, enemies, asteroidSprite);
+                spawnEnemies(jetSprite, window, enemies, asteroidSprite, 200);
 
                 if (gameState == GameState::Multiplayer) {
-                    spawnEnemies(jetSprite2, window, enemies, asteroidSprite);
+                    spawnEnemies(jetSprite2, window, enemies, asteroidSprite, 400 );
                 }
 
                 enemySpawnTimer = 0.f;
@@ -341,11 +341,11 @@ int main() {
 
         //Displaying scores and levels
         stringstream scr;
-        scr << "Score: " << score;
+        scr << "Score P1: " << score;
         scoreText.setString(scr.str());
 
         stringstream scr2;
-        scr2 << "Score: " << score2;
+        scr2 << "Score P2: " << score2;
         score2Text.setString(scr2.str());
 
         stringstream livesstring;
@@ -359,8 +359,8 @@ int main() {
                     spawnBullets(jetSprite.getPosition(), bullets, bulletSprite);
                 }
                 else if (doubleShooting) {
-                    Vector2f newPos1(jetSprite.getPosition().x + 10.0f, jetSprite.getPosition().y);
-                    Vector2f newPos2(jetSprite.getPosition().x - 10.0f, jetSprite.getPosition().y);
+                    Vector2f newPos1(jetSprite.getPosition().x + 20.0f, jetSprite.getPosition().y);
+                    Vector2f newPos2(jetSprite.getPosition().x - 20.0f, jetSprite.getPosition().y);
 
                     spawnBullets(newPos1, bullets, bulletSprite);
                     spawnBullets(newPos2, bullets, bulletSprite);
@@ -382,6 +382,7 @@ int main() {
             else {
                for (int j = 0; j < enemies.size(); j++) {
                     if (bullets[i].getGlobalBounds().intersects(enemies[j].getGlobalBounds())) {
+                        
                         score++;
                         bullets.erase(bullets.begin() + i);
                         enemies.erase(enemies.begin() + j);
@@ -471,6 +472,7 @@ int main() {
                 level = 1;
                 lives = 3;
                 score = 0;
+                score2 = 0;
                 jetSprite.setPosition(window.getSize().x / 2.0f, window.getSize().y - 100);
                 jetSprite2.setPosition(window.getSize().x / 2.0f, window.getSize().y - 100);
                 gameState = GameState::MainMenu;
@@ -479,6 +481,7 @@ int main() {
 
         if (gameState == GameState::MainMenu) {
 
+            
             //rendering enemies/
             for (auto& e : enemies) {
                 window.draw(e);
@@ -517,15 +520,17 @@ int main() {
             level = 1;
             lives = 3;
             score = 0;
+            score2 = 0;
             jetSprite.setPosition(window.getSize().x / 2.0f, window.getSize().y - 100);
             jetSprite2.setPosition(window.getSize().x / 2.0f, window.getSize().y - 100);
 
-            if (Keyboard::isKeyPressed(Keyboard::Enter)) {
-                gameState = GameState::SinglePlayer;
-            }
+            
         }
 
         if (gameState == GameState::SinglePlayer) {
+            window.clear();
+            updateStars(window, stars, speeds);
+            drawStars(window, stars);
             //rendering bulets
            for (auto& e : bullets) {
                 window.draw(e);
@@ -576,6 +581,10 @@ int main() {
         }
 
         if (gameState == GameState::Multiplayer) {
+            window.clear();
+
+            updateStars(window, stars, speeds);
+            drawStars(window, stars);
 
            for (auto& e : bullets) {
                 window.draw(e);
