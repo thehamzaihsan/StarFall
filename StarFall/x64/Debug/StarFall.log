@@ -1,0 +1,106 @@
+﻿  StarFall.cpp
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(71,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(95,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(98,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(100,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(119,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(190,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(216,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(230,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(231,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(251,79): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(251,61): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(261,53): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(275,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(280,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(285,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(290,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(295,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(300,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(322,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(324,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(326,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(328,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(346,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(350,36): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(406,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(410,28): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(414,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(454,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(456,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(458,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(460,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(463,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(465,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(467,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(469,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(476,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(480,33): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(484,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(531,85): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(532,86): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(555,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(555,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(579,81): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\StarFall\StarFall.cpp(580,82): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  StarFall.vcxproj -> C:\Users\Hamza\OneDrive\Desktop\StarFall-v4\StarFall-v4\x64\Debug\StarFall.exe
